@@ -1,0 +1,57 @@
+ /* General page styling */
+ body {
+    background: linear-gradient(to bottom right, orange, green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Styling for the quiz container */
+.quiz-container {
+    background: linear-gradient(to bottom right,green ,orange );
+    padding: 30px 50px;
+    box-shadow: 0 10px 30px none;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Styling for the question */
+.quiz-question {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Styling for the options */
+.quiz-option {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    color: #ffffff;
+}
+
+.quiz-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Styling for the submit button */
+.submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(245, 248, 247);
+    color: rgb(68, 65, 65);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: rgb(167, 220, 221);
+}
